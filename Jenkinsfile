@@ -3,7 +3,7 @@ pipeline {
 
     tools {
         maven 'MAVEN_HOME'
-        jdk 'JDK8'
+        // Removed JDK line to fix error
     }
 
     stages {
